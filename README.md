@@ -1,4 +1,3 @@
-# Self-Balancing-Bi-Copter-Control
 # Self-Balancing Bicopter Control System
 
 This repository contains the code and instructions for a self-balancing bicopter control system. The project uses an MPU6050 sensor and PID control to maintain balance by adjusting the speed of two motors.
