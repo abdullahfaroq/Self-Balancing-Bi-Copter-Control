@@ -40,3 +40,27 @@ The self-balancing bicopter project aims to stabilize a two-motor setup using a 
    ```bash
    git clone https://github.com/abdullahfaroq/Self-Balancing-Bi-Copter-Control.git
    cd Self-Balancing-Bi-Copter-Control
+Install the required libraries:
+
+Open the Arduino IDE, go to Sketch > Include Library > Manage Libraries... and install the following:
+
+MPU6050
+I2Cdev
+Servo
+Upload the code:
+
+Open the self_balancing_bicopter.ino file in the Arduino IDE and upload it to your Arduino board.
+
+Usage
+Connect the hardware:
+
+Connect the MPU6050 sensor to the Arduino (SDA to A4, SCL to A5 on Arduino Uno).
+Connect the ESCs to pins 3 and 5 on the Arduino.
+Connect the motors to the ESCs.
+Power the system:
+
+Ensure your Arduino and ESCs are properly powered.
+
+Monitor the output:
+
+Open the Serial Monitor in the Arduino IDE to view the PID output and sensor values.
